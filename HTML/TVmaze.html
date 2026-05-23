@@ -16,12 +16,14 @@
             <form id="procurar_series">
                 <input type="text" id="procura" placeholder="Digite o nome da série">
                 <button type="button" onclick="pesquisar_serie()">Procurar</button>
+                <button type="button" onclick="limpar_resultados()">Limpar</button>
             </form>
         </div>
-        <div  id="container-id" class="container">
-            <div id="loading" class="d-none">
+        <div id="loading" class="d-none">
                 <p>Carregando...</p>
             </div>
+        <div  id="container-id" >
+
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> 
